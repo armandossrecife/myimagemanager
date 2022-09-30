@@ -158,3 +158,5 @@ Django Rest - [Site](https://www.django-rest-framework.org/)
 Upload de imagens em uma API Rest - [Alura](https://www.alura.com.br/artigos/django-upload-de-imagens-em-uma-api-rest)
 
 Salvar imagem em uma pasta (id) do usuario [dev.to](https://dev.to/thomz/uploading-images-to-django-rest-framework-from-forms-in-react-3jhj)
+
+Model field - [Django Doc](https://docs.djangoproject.com/en/dev/ref/models/fields/#django.db.models.FileField)

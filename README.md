@@ -149,6 +149,22 @@ python3 manage.py flush
 
 Obs: é preciso recriar o usuario admin
 
+## Chamadas da API
+
+curl -i http://localhost:8000/myimages/
+
+curl -i http://localhost:8000/myimages/users/
+
+curl -i http://localhost:8000/myimages/users/1/
+
+curl -i http://localhost:8000/myimages/users/1/images/
+
+curl -i http://localhost:8000/myimages/users/1/images/1/
+
+curl -i http://localhost:8000/myimages/users/1/images/1/file
+
+curl -i -X POST -H "Content-Type: multipart/form-data" -F "foto=@/pastadoarquivo/arquivo.jpg" -F "user=1" -F "nome=arquivo.jpg" http://localhost:8000/myimages/users/1/images/uploadfiles/
+
 ## Referencias:
 
 Django - [Site](https://www.djangoproject.com/)
